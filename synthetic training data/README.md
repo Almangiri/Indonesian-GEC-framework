@@ -1,9 +1,9 @@
 # Training data
 The synthetic data of the proposed approach is available in .csv format in the below links :
 
-[Training_set](https://drive.google.com/file/d/1LB0MOzpN8lGovKIEhUgilDpnNjBRHYfZ/view?usp=sharing)
+[Training_set](https://drive.google.com/file/d/1zrjQufjgJsfTzfCoU2U1rmUc0TIhijHh/view)
 
-[Development_set](https://drive.google.com/file/d/10xSxu5bCp34yV0uGi91ZfY55djboICdK/view?usp=sharing)
+[Development_set](https://drive.google.com/file/d/14y0TTTs8qXBLHonNKgbgwXYxEGx48D3x/view?usp=sharing)
 
 
 # Preparing the Data
