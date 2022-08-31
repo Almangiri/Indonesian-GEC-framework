@@ -3,10 +3,10 @@
 # Trained models
 We provide four versions for L2R and R2L of our proposed model that we used for re-ranking L2R as below: 
 
-- [AGEC_R2L.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
+- [IGEC_R2L.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
 
 
-- [AGEC_L2R.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
+- [IGEC_L2R.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
 
 
 
@@ -41,7 +41,7 @@ optimizer = optim.Adam(params=transformer.parameters(), lr=LR)
 criterion = nn.CrossEntropyLoss(ignore_index=TRG.vocab.stoi[TRG.pad_token])
 trainer = Trainer(model=transformer, optimizer=optimizer, criterion=criterion)
 
-checkpoint = torch.load('./1st_AGEC_R2L.pth')
+checkpoint = torch.load('./IGEC_R2L.pth')
 optimizer.load_state_dict(checkpoint['optimizer'])          
 transformer.load_state_dict(checkpoint['state_dict'])
 ```
