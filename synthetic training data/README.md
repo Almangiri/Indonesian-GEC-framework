@@ -1,5 +1,5 @@
 # Training data
-The augmented data of each proposed approach is available in .csv format in the below links :
+The synthetic data of the proposed approach is available in .csv format in the below links :
 
 [Training_set](https://drive.google.com/file/d/1LB0MOzpN8lGovKIEhUgilDpnNjBRHYfZ/view?usp=sharing)
 
@@ -17,20 +17,15 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchtext.data import TabularDataset, Field, Iterator, BucketIterator, ReversibleField
 
-import pyarabic.araby as araby
-import pyarabic.number as number
-
 import bpemb
 from bpemb import BPEmb
-bpemb_ar = BPEmb(lang="id", vs=1000, dim=300) 
+bpemb_id = BPEmb(lang="id", vs=1000, dim=300) 
 ```
 Create the tokenizer using bpemb as belllow:
 
 ```py
 def normalizeString(line):
-    line = araby.strip_tatweel(line)
-    line = araby.strip_tashkeel(line)
-    line = bpemb_ar.encode(line)
+    line = bpemb_id.encode(line)
     return line
 ```
 
