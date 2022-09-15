@@ -38,7 +38,7 @@ optimizer = optim.Adam(params=transformer.parameters(), lr=LR)
 criterion = nn.CrossEntropyLoss(ignore_index=TRG.vocab.stoi[TRG.pad_token])
 trainer = Trainer(model=transformer, optimizer=optimizer, criterion=criterion)
 
-checkpoint = torch.load('./IGEC_R2L.pth')
+checkpoint = torch.load('./IndoGEC.pth')
 optimizer.load_state_dict(checkpoint['optimizer'])          
 transformer.load_state_dict(checkpoint['state_dict'])
 ```
