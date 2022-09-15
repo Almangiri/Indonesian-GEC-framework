@@ -1,12 +1,9 @@
 
 
 # Trained models
-We provide four versions for L2R and R2L of our proposed model that we used for re-ranking L2R as below: 
+We provide the best versions of our proposed model in the following link: 
 
-- [IGEC_R2L.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
-
-
-- [IGEC_L2R.pth](https://drive.google.com/file/d/15J2qPWy2-x8rSejSyxoE6fYrRebkaBsD/view?usp=sharing)
+- [IndoGEC.pth](https://drive.google.com/file/d/1NLjHD2ItLx68DQOYQuH1DvvzhnrNM74d/view?usp=sharing)
 
 
 
