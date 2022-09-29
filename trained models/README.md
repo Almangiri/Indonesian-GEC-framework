@@ -7,7 +7,7 @@ We provide the best versions of our proposed model in the following link:
 
 
 
-# load models
+# Load models
 To load one of these models in your notebook used the below lines: 
 
 ```py
