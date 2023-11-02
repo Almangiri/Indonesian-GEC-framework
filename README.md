@@ -1,6 +1,9 @@
 # Indonesian-GEC-framework
 We proposed an automatic grammatical error correction framework based on the Transformer architecture and can be applied to other low-resource language texts. FurthermoreBesides, we built a large corpus of Indonesian language that can be utilized for evaluating the next Indonesian GEC task.
 
+This repository contains the code and data for our paper:
+
+[*Automatic Correction of Indonesian Grammatical Errors Based on Transformer*](https://www.mdpi.com/2076-3417/12/20/10380)
 
 ## Model requirements
 Regarding load and run the trained models it requires a working installation of following:
@@ -26,6 +29,6 @@ If you find this work useful and use it in your own research, please cite our pa
   year={2022},
   publisher={MDPI}
 }
-`````
 
+`````
 
