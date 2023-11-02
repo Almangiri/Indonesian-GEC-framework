@@ -15,7 +15,7 @@ Regarding load and run the trained models it requires a working installation of 
 
 
 If you find this work useful and use it in your own research, please cite our paper.
-...
+`````
 @article{musyafa2022automatic,
   title={Automatic Correction of Indonesian Grammatical Errors Based on Transformer},
   author={Musyafa, Ahmad and Gao, Ying and Solyman, Aiman and Wu, Chaojie and Khan, Siraj},
@@ -26,4 +26,6 @@ If you find this work useful and use it in your own research, please cite our pa
   year={2022},
   publisher={MDPI}
 }
-...
+`````
+
+
