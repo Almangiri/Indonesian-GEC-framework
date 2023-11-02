@@ -12,7 +12,7 @@ Regarding load and run the trained models it requires a working installation of 
 - bpemb==0.3.2
 - nltk==3.3
 
-#### If you find this work useful and use it in your own research, please cite our paper.
+If you find this work useful and use it in your own research, please cite our paper.
 '''
 @article{musyafa2022automatic,
   title={Automatic Correction of Indonesian Grammatical Errors Based on Transformer},
